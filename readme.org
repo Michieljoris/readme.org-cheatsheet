@@ -9,8 +9,8 @@
 : *** Heading 3
 
 * styling
-: *bold* /ital/ _underline_  =code= ~verbatim~ $latex_formula$
 *bold* /ital/ _underline_  =code= ~verbatim~ $latex_formula$
+: *bold* /ital/ _underline_  =code= ~verbatim~ $latex_formula$
 
 * links
  [[http://www.google.com][google]]
@@ -28,7 +28,7 @@ quoted text
 #+end_quote
   
 : #+begin_quote
-<source code>
+: quoted text
 : #+end_quote
 
 * source code
@@ -52,7 +52,7 @@ quoted text
 #+end_src
 
 : #+begin_src javascript
-<source code>
+: <source code>
 : #+end_src
 
 C-c ' to edit source code, C-c ' to return and update
@@ -68,12 +68,10 @@ C-c ' to edit source code, C-c ' to return and update
 | KW   | Sep  | 
 | TW   | Aug  |
 
-#+begin_quote
-| Col1 | Col 2| 
-|------|------|  Press | TAB 
-| KW   | Sep  | 
-| TW   | Aug  |
-#+end_quote
+: | Col1 | Col 2| 
+: |------|------|  Press | TAB 
+: | KW   | Sep  | 
+: | TW   | Aug  |
 
 * lists
 1. number list, alternate 1)
@@ -81,8 +79,6 @@ C-c ' to edit source code, C-c ' to return and update
   
 : 1. number list, alternate 1)
 : - bullet list, alternate +
-
-: example (monospace) $$formula$$ latex type formula
 
 * comments  
 # comment (not exported)
