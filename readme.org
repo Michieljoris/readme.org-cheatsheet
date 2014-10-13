@@ -77,17 +77,19 @@ C-c ' to edit source code, C-c ' to return and update
 
 * lists
 ** numbered  
-1. number list, alternate 1)
+1. number list, use 1. or 1)
 2. line
 3. line 3
    
 ** unnumbered lists;   
-- bullet list, alternate +
-- line 2 
+- use - or +
+- bullet list
+- line 2
   
- ** Indented  list 
-  - bullet list, alternate +
-  - line 2 
+** Indented list 
+  - just add space in front of -
+  - bullet list
+  - line 2
   
 : 1. number list, alternate 1)
 : - bullet list, alternate +
