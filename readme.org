@@ -81,7 +81,7 @@ C-c ' to edit source code, C-c ' to return and update
 2. line
 3. line 3
    
-** unnumbered lists;   
+** unnumbered 
 - use - or +
 - bullet list
 - line 2
