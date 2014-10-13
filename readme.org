@@ -1,0 +1,72 @@
+#+TITLE: Markup Cheat sheet for Org-mode
+#+OPTIONS: toc:2
+
+* Heading 1                                                       :tag1:tag2:
+** TODO Heading 2: Set a deadline and a schedule
+SCHEDULED: <2012-03-06 Tue> DEADLINE: <2012-03-07 Wed>
+*** DONE [66%] Heading 3: a list with checkboxes
+1. [X] task 1
+2) [X] task 2
+3. [ ] task 3
+
+** TODO [1/3] Track completion of tasks
+*** DONE Finished task
+- State "DONE"       from "TODO"       [2012-03-07 Wed 07:56]
+*** STARTED Started task
+*** TODO Unstarted task
+- State "TODO"       from "DONE"       [2012-03-07 Wed 08:02]
+  
+* Fancy typesetting features
+
+- *bold* /ital/ _underline_ =code= ~verbatim~ +strike through+
+# comment (not exported)
+- : literal example
+- -----  horizontal line (5 dashes)
+
+* Hyperlinks
+
+[[http:][hyperlink text]]
+[[http://orgmode.org/worg/images/orgweb/2.jpg]]
+[[info:org#External links][External Links]]
+[[docview:papers/last.pdf::NNN][targetted link]]
+[[shell:ls *.org][shell commands]]
+
+* Tables and Spreadsheets
+:PROPERTIES:
+:foo: bar
+:Cats: Cheese burger
+:END:
+** Basic Table
+#+TBLNAME: dates
+| Col1 | Col 2 |    
+|------+-------|
+| KW   | Sep   | 
+| TW   | Aug   |
+# C-c - :: insert a row of dashes
+** Spreadsheet
+#+TBLNAME: square-roots
+| x |         y |
+|---+-----------|
+| 1 |         1 |
+| 2 | 1.4142136 |
+| 3 | 1.7320508 |
+| 4 |         2 |
+#+TBLFM: $2=sqrt($1)
+
+* Source Code
+
+#+name: R-plot-1-to-10
+#+begin_src R
+plot(1:10)
+#+end_src
+
+#+name: add1(x=0)
+#+begin_src python :cache :results silent
+return x + 1
+#+end_src
+* Mathematical Equations
+
+\begin{equation}
+\int^x_0 x^2 dx = \frac{x^3}{3}            
+\end{equation}
+# C-c C-x C-l
