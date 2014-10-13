@@ -2,7 +2,8 @@
 
 *bold* /ital/ _underline_  =code= ~verbatim~ $latex_formula$
 
-: [[http:][linktext]]
+: [[http://www.google.com][google]]
+ [[http://www.google.com][google]]
 
 * Heading 1
 ** Heading 2
