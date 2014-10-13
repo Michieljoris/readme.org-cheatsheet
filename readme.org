@@ -12,7 +12,7 @@
 *bold* /ital/ _underline_  =code= ~verbatim~ 
 : *bold* /ital/ _underline_  =code= ~verbatim~ 
 
-Or add : to beginning of line ignore org markup
+Or add : to beginning of line to ignore org markup
 
 * links
  [[http://www.google.com][google]]
@@ -76,13 +76,16 @@ C-c ' to edit source code, C-c ' to return and update
 : | TW   | Aug  |
 
 * lists
+** numbered  
 1. number list, alternate 1)
 2. line
 3. line 3
    
+** unnumbered lists;   
 - bullet list, alternate +
 - line 2 
   
+ ** Indented  list 
   - bullet list, alternate +
   - line 2 
   
