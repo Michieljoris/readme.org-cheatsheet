@@ -86,11 +86,6 @@ C-c ' to edit source code, C-c ' to return and update
 - bullet list
 - line 2
   
-** Indented list 
-      - just add space in front of -
-      - bullet list
-      - line 2
-  
 : 1. number list, alternate 1)
 : - bullet list, alternate +
 
