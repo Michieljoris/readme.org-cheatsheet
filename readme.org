@@ -9,8 +9,10 @@
 : *** Heading 3
 
 * styling
-*bold* /ital/ _underline_  =code= ~verbatim~ $latex_formula$
-: *bold* /ital/ _underline_  =code= ~verbatim~ $latex_formula$
+*bold* /ital/ _underline_  =code= ~verbatim~ 
+: *bold* /ital/ _underline_  =code= ~verbatim~ 
+
+Or add : to beginning of line ignore org markup
 
 * links
  [[http://www.google.com][google]]
@@ -75,10 +77,19 @@ C-c ' to edit source code, C-c ' to return and update
 
 * lists
 1. number list, alternate 1)
+2. line
+3. line 3
+   
 - bullet list, alternate +
+- line 2 
+  
+  - bullet list, alternate +
+  - line 2 
   
 : 1. number list, alternate 1)
 : - bullet list, alternate +
+
+alt-enter at end of line to add a new one 
 
 * comments  
 # comment (not exported)
