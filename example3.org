@@ -1,0 +1,27 @@
+#+TITLE: Markup Cheat sheet for Org-mode
+
+*bold* /ital/ _underline_  =code= ~verbatim~ $latex_formula$
+
+: [[http:][linktext]]
+
+* Heading 1
+** Heading 2
+*** Heading 3
+
+-----  horizontal line (5 dashes)
+
+| Col1 | Col 2| 
+|------|------|  Press | TAB 
+| KW   | Sep  | 
+| TW   | Aug  |
+
+1. number list, alternate 1)
+- bullet list, alternate +
+
+: example (monospace) $$formula$$ latex type formula
+
+# comment (not exported)
+
+#+begin_src R 
+plot(1:10)
+#+end_src
